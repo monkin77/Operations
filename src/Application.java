@@ -7,10 +7,12 @@ public class Application {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
+        System.out.print("Result: ");
         if (operation.equals("sum")) {
             System.out.println(a + b);
         }else if ( operation.equals("mul")){
             System.out.println(a*b);
         }
+
     }
 }
