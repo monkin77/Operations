@@ -10,7 +10,7 @@ public class Application {
 
         System.out.print("Result: ");
         if (operation.equals("sum")) {
-            System.out.println(a + b);
+            System.out.println(a+ b);
         }else if ( operation.equals("mul")){
             System.out.println(a*b);
         }
